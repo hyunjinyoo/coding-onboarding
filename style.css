@@ -1,46 +1,82 @@
-
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
     -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (max-width: 1400px) {
+    .customWidth {
+        width: 200px !important;
+    }
+    .card:hover {
+        background-color: aqua;
+        cursor: col-resize;
+    }
+}
+    
 body {
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 3.5;
-    margin:auto;
-    max-width: 1000px;
-    max-height: 3000px; 
     padding: 3em 3em 4em;
 }
 
 .first {
-    margin-top:70px;
-    background-color:white;
-    background-position: center center;
+    margin-top: 70px;
 }
+
 .title{
     text-align: center;
 }
 .subtitle{
     text-align: center;
 }
-.container{
-    margin-top: 60px;
-    background-color:white;
-    background-position:center center;
+
+.container.button{
+    margin-top:90px;
+    margin-bottom:30px;
     text-align: center;
-    ;
 }
+.ui.container{
+    margin-top:50px;    
+}
+
+.ui.grid {
+    margin: 0 !important;
+}
+
 .ui.card{
     margin-top: 60px;
     max-width: 250px;
-
 }
+   
+}
+.ui.container{
+    margin-top:200px;
+    max-width:100px;
+    padding: 40px 20px 40px 20px;
+}
+.bottom.container{
+    max-width: 1200px;
+    padding-right:30px;
+    margin: 90px auto;
+}
+
+.ui.comments{
+    margin: 0 auto;
+}
+.content{
+    padding: 2px 20px;
+}
+.deliver{
+    font-size:9px;
+}
+
+
+
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #777777;
