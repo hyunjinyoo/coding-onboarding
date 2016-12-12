@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Modal test</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>    
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            $('.ui.accordion').accordion('refresh');
+        </script>
+		<body>
+		<div class="modalcontainer">
+		<div class="ui fullscreen modal transition visible active" style="margin-top:-500px; display: block !important;">
+				<i class="close white icon"></i>
+		<div class="modal header">
+					<h3>텀블벅에게 문의하기</h3>
+				</div>
+		<div class="field">
+			<div class="ui styled accordion">
+				<div class="active title">
+					<i class="dropdown icon"></i>
+					 지불 정보는 어떻게 바꾸나요?
+				</div>
+				<div class="active content">
+							<p class="dropdowncontent">
+								화면 우측 상단의 프로필 클릭 후 <a href="https://tumblbug.com/users/payment">지불정보 설정</a>에서 지불정보를 변경할 수 있습니다. 카드에서 카드로, 계좌에서 계좌로만 수정이 가능하니 카드 -> 계좌와 같이 결제 수단 변경을 원하시는 경우 저희 쪽으로 알려주세요
+							</p>
+				</div>
+				<div class="active title">
+					<i class="dropdown icon"></i>
+					 결제에 실패했어요! 어떡하죠?
+				</div>
+				<div class="active content">
+							<p class="dropdowncontent">
+								한도 초과, 잔액 부족 등으로 결제에 실패한 경우 마감일로부터 14일간 재결제를 시도합니다. 이 기간 안에 잔액 보충 등의 조치를 취해주시면 다음날 결제에 성공할 것입니다. (유효한 결제수단으로 수정하시는 경우, 수정 즉시 재결제가 진행됩니다.)
+							</p>
+				</div>
+				<div class="active title">
+					<i class="dropdown icon"></i>
+						무통장 입금 또는 휴대폰 결제는 안되나요?
+				</div>
+				<div class="active content">
+							<p class="dropdowncontent">
+								마감일 기준 목표금액을 달성해야 결제가 진행되는 텀블벅의 특성상, 무통장 입금 또는 휴대폰 결제는 지원하지 않습니다. 지원하는 결제수단은 <a href="https://tumblbug.com/help/search?utf8=%E2%9C%93&query=%EC%96%B4%EB%96%A4+%EA%B2%B0%EC%A0%9C+%EC%88%98%EB%8B%A8%EC%9D%84+%EC%A7%80%EC%9B%90%ED%95%98%EB%82%98%EC%9A%94%3F">여기</a>서 확인하실 수 있습니다.
+							</p>
+				</div>
+				<div class="active title">
+					<i class="dropdown icon"></i>
+						배송 정보 수정은 어떻게 하나요?
+				</div>
+				<div class="active content">
+							<p class="dropdowncontent">
+								화면 우측 상단의 프로필 클릭 후 <a href="https://tumblbug.com/pledges">나의 후원 현황 > 후원 상세</a>에서 배송정보를 수정하실 수 있습니다. 마감 후에 수정하셨다면 ‘창작자에게 문의하기’를 통해 수정하신 내용을 알려주세요. 
+							</p>
+				</div>
+				<div class="active title">
+					<i class="dropdown icon"></i>
+						기타
+				</div>
+				<div class="active content">
+							<p class="dropdowncontent">
+								현금영수증, 기부금 영수증 등 적격증빙자료의 발행은 창작자에게 직접 문의하셔야 합니다. 후원금 이체 확인서는 저희 쪽으로 후원번호와 함께 문의주시면 발급을 도와드리겠습니다.
+							</p>
+				</div>
+	<div class="actions">
+		<p class="others">이 밖의 문의사항은 <a href="https://tumblbug.com/help">도움말</a>을 참조하시거나 support@tumblbug.com으로 문의 바랍니다.</p>   
+		<button class="ui small primary button" type="submit">다른 문의하기</button>
+	</div>
+	</div>
+</div>
+</div>
+
+		</body>
+</html>

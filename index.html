@@ -9,7 +9,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>    
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            $('.ui.accordion').accordion('refresh');
+        </script>
     </head>
     <div class="ui secondary  menu">
       <a class="active item">
@@ -35,8 +39,10 @@
     </div>
     <div class="ui divider"></div>
     <body>
-        <div class="first">
-            <h1 class="title">센스있는 크리스마스 디저트 '크리스마스 케익볼'</h1>
+        <div class="coverimage" style="background-image: url('https://tumblbug-assets.imgix.net/interviews/yourmind/your1.jpg?w=2000&s=752ffcc86bf8cc838bdb0cae2674daaf')">
+            <h2 class="herocopy">내 방에 띄우는 열기구</h2>
+        </div>
+            <h1 class="headertitle" id="yo">센스있는 크리스마스 디저트 '크리스마스 케익볼'</h1>
             <h4 class="subtitle">홀리케익의 베이킹 프로젝트</h4>
         <div class="container button">
               <div class="ui button">One</div>
@@ -46,7 +52,7 @@
             </div>
         </div>
         <div class="ui divider"></div>
-    <div class="ui container">
+    <div class="ui container padding">
         <div class="ui column stackable center page grid">
           <div class="four wide column">
          <div class="ui card customWidth">
@@ -269,7 +275,6 @@
           <button class="ui button" type="submit">Submit</button>
         </form>    
     </div> 
-
     <div class="ui comments">
       <div class="comment">
         <a class="avatar">
@@ -330,80 +335,306 @@
       Second
     </div>
 </div>
-<div class="tab blank">
-    <div class="ui tabular menu">
-      <div class="ui container">
-        <a href="#" class="active item">
-          <h5>
-            <i class="ui large light grey circle icon"></i>
-            <label><span>내가 만든</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-        <a href="#funding" class="item">
-          <h5>
-            <i class="ui large light grey circle icon"></i>
-            <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-      </div>
+<div class="four tabs">
+    <div class="tab blank">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#yo" class="active item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
     </div>
-</div>
-<div class="tab filled">
-    <div class="ui tabular menu">
-      <div class="ui container">
-        <a href="#" class="active item">
-          <h5>
-            <i class="ui large blue check circle icon"></i>
-            <label><span>내가 만든</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-        <a href="#funding" class="item">
-          <h5>
-            <i class="ui large light grey circle icon"></i>
-            <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-      </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
     </div>
-</div>
-<div class="tab filled">
-    <div class="ui tabular menu">
-      <div class="ui container">
-        <a href="#" class="active item">
-          <h5>
-            <i class="ui large light grey circle icon"></i>
-            <label><span>내가 만든</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-        <a href="#funding" class="item">
-          <h5>
-            <i class="ui large blue check circle icon"></i>
-            <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-      </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
     </div>
-</div>
-<div class="tab filled">
-    <div class="ui tabular menu">
-      <div class="ui container">
-        <a href="#" class="active item">
-          <h5>
-            <i class="ui large blue check circle icon"></i>
-            <label><span>내가 만든</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-        <a href="#funding" class="item">
-          <h5>
-            <i class="ui large blue check circle icon"></i>
-            <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
-          </h5>
-        </a>
-      </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
     </div>
 </div>
 
+<div class="ui divider"></div>
+ 
+<div class="ui vertical accordion menu">
+  <div class="item">
+    <a class="active title">
+      <i class="dropdown icon"></i>
+   <i class="black circular large user icon"></i>
+      Partner information
+    </a>
+    <div class="active content">
+      <div class="ui form">
+        <div class="grouped fields">
+          <div class="field">
+            <i class="caret right icon"></i>    
+             후원 정보: 금속 뱃지 + 에코백 + 미니 탁상 달력 + 엽서 세트를 후원하셨습니다 (2035634)
+          </div>
+          <div class="field">
+            <i class="caret right icon"></i>    
+             결제 정보: 신용/체크 카드로 10,000원이 결제완료되었습니다.
+          </div>
+          <div class="field">
+            <i class="caret right icon"></i>    
+             배송 정보: [35264] 서울시 마포구 동교동 203-7 유남빌딩 503호, 유현진
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="ui vertical accordion menu">
+  <div class="item">
+    <a class="active title">
+      <i class="dropdown icon"></i>
+   <i class="black circular large user icon"></i>
+      Yieung
+    </a>
+    <div class="active content">
+        <table class="ui definition table">
+          <tbody>
+            <tr>
+              <td>후원 정보</td>
+              <td>[후원번호:203532] 엽서 세트 + 탁상용 미니 달력 + 금속 뱃지 + 에코백 </td>
+            </tr>
+            <tr>
+              <td>결제 정보</td>
+              <td>10,000원 결제 완료되었습니다</td>
+            </tr>
+            <tr>
+              <td>배송 정보</td>
+              <td>[우편번호:3523] 서울시 마포구 동교동 203-7 유남빌딩 503호 유현진</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+
+<div class="ui segment">
+<h2> 텀블벅에게 문의하기</h2>
+<div class="ui styled accordion">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent">
+        <strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <div class="ui divider"></div>
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <div class="ui divider"></div>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+</div>
+
+<div class="ui link cards">
+  <div class="card">
+    <div class="titlesection">
+      <h4 class="totumblbug"> 텀블벅에게 문의하기 </h>
+    </div>
+    <div class="content">
+<div class="ui styled accordion">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent">
+        <strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <div class="ui divider"></div>
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <div class="ui divider"></div>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+  
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">
+        Joined in 2013
+      </span>
+      <span>
+        <i class="user icon"></i>
+        75 Friends
+      </span>
+    </div>
+  </div>
+
+
+<div class="modalcontainer">
+<div class="ui fullscreen modal transition visible active" style="margin-top: -212.93px; display: block !important;">
+    <i class="close white icon"></i>
+    <div class="modal header">
+      <h3>창작자에게 문의하기</h3>
+    </div>
+    <div class="content">
+      <div class="ui form">
+        <div class="field">
+          <span class="towhom">받는 사람 : 오디너리피플</span>
+<div class="ui fitted divider"></div>
+          <span class="towhom">문의 내용 : 
+            <div class="ui compact menu">
+              <div class="ui simple dropdown item">
+                문의 유형
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">선물/후원</div>
+                  <div class="item">프로젝트</div>
+                  <div class="item">수령자 정보</div>
+                  <div class="item">교환/환불</div>
+                  <div class="item">배송</div>
+                  <div class="item">기타</div>
+                </div>
+              </div>
+            </div>
+            </span>
+<div class="ui fitted divider"></div>          
+				<div class="ui input field">
+					<textarea placeholder="하고 싶은 말을 써주세요" rows="20" style="height:20em;"></textarea>
+				</div>
+								</div>
+							</div>
+						</div>
+						<div class="actions">
+							 <button class="ui small button"><i class="remove icon"></i>취소하기</button>    
+							<button class="ui small primary button" type="submit"><i class="send icon"></i>보내기</button>
+						</div>
+					</div>
+					</div>
+
+<div class="originalcontent">
         <h2>Get involved</h2>
         <p>
             Brackets is an open-source project. Web developers from around the world are contributing to build
@@ -421,5 +652,5 @@
             <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
         </ul>
         </div>
-    </body>
+</body>
 </html>
