@@ -169,6 +169,7 @@ p {
 	padding: 1.5em;
 	border-radius: none !important;
 	color: rgba(0, 0, 0, 0.6);
+	text-align: left;
 }
 
 .angle.down.icon{
@@ -203,8 +204,8 @@ p {
 		box-shadow: none !important;
 }
 
-.towhom{
-		text-align: left;
+.towhom {
+		text-align: left !important;
 }
 .questiontype{
 		text-align: left;
@@ -232,4 +233,13 @@ p {
 		font-size: 11px;
 		text-align: center;
 		margin-top: 2px;
+}
+
+.feedback {
+	padding: 3em 2em !important;
+	text-align: center;
+}
+
+.feedbackcontent{
+	line-height: 1.5em;
 }
