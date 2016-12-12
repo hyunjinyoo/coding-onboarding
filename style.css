@@ -1,51 +1,121 @@
-
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
     -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (max-width: 1400px) {
+    .customWidth {
+        width: 200px !important;
+    }
+    .card:hover {
+        background-color: aqua;
+        cursor: col-resize;
+    }
+}
+    
 body {
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 3.5;
-    margin:auto;
-    max-width: 1000px;
-    max-height: 3000px; 
-    padding: 3em 3em 4em;
 }
 
 .first {
-    margin-top:70px;
-    background-color:white;
-    background-position: center center;
+    margin-top: 70px;
 }
-.title{
+
+.coverimage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+.herocopy{ 
+    color: aliceblue;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size:1.5em;
+    font-weight:bold;
+}
+.headertitle{
     text-align: center;
+
 }
+
 .subtitle{
     text-align: center;
 }
-.container{
-    margin-top: 60px;
-    background-color:white;
-    background-position:center center;
+
+.container.button{
+    margin-top:90px;
+    margin-bottom:30px;
     text-align: center;
-    ;
 }
+.ui.container{
+    margin-top:50px;
+    
+}
+
+.ui.grid {
+    margin: 0 !important;
+}
+
 .ui.card{
     margin-top: 60px;
     max-width: 250px;
-
+    align-content: stretch;
+}
+   
+}
+.ui.container{
+    margin-top:200px;
+    max-width:100px;
+    padding: 40px 20px 40px 20px;
+}
+.bottom.container{
+    max-width: 1000px;
+    padding-right:30px;
+    margin: 90px auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #777777;
-    font-weight: 800px;
-    line-height: 1.1em;
+.ui.comments{
+    margin: 0 auto;
+}
+.content{
+    padding: 2px 20px;
+}
+.deliver{
+    font-size:9px;
+}
+
+.tab.section{
+    max-width:1000px;
+    margin:100px auto;
+}
+
+.column.test{
+    max-width:1000px;
+    margin: 0 auto;
+}
+.tab{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ui.tabular.menu {
+    border-radius: 0em;
+    box-shadow: none !important;
+    border: none;
+    background: none transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
 }
 p {
     font-size: 13px;
@@ -55,49 +125,92 @@ p {
 
 /*button*/
 
-
-.image{
-    width:auto;
-    height:auto;
-    background-size: cover;
-    background-position: center center;
+.dropdown.icon {
+    float:right;
 }
 
-
-
-h2 {
-    margin-top: 1.3em;
+.ui.vertical.accordion.menu{
+    margin-left:500px;
+    width: 800px;
 }
 
-a {
-    color: #0083e8;
+.ui.definition.table{
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
-b, strong {
-    font-weight: 600;
+.ui.styled.accordion{
+		border-color:none;
+		border-radius:none !important;
+		max-height:930px;
 }
 
-samp {
-    display: none;
+.ui.styled.accordion > .title {
+	padding: 1.5em;
+	border-radius: none !important;
+	color: rgba(0, 0, 0, 0.6);
 }
 
-img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 20px solid rgba(3,3,3,0.4);
-    border-radius: 1px;
-    display: block;
-    margin: 10px auto;
-    width: 300px;
+.angle.down.icon{
+    padding-left:450px;
 }
 
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
+.dropdowncontent {
+		padding: 0px 10px 0px 10px;
+		line-height: 1.5em;
 }
+
+.ui.segment{
+    margin:0 auto;
+    padding: 20px 20px 20px 20px;
+    max-width: 500px;
+}
+
+.modalcontainer{
+    max-width: 800px !important;
+		margin:0 auto;
+}
+    
+.ui.fullscreen.modal {
+    max-width: 500px !important;
+    margin: 0 auto;
+    background: #FFF;
+}
+.modal.header{
+    background-color:#fa6462!important;
+		color:white !important;
+    text-align: center;
+		box-shadow: none !important;
+}
+
+.towhom{
+		text-align: left;
+}
+.questiontype{
+		text-align: left;
+}
+
+.ui.compact.menu{
+		margin-left: 4px;
+}
+
+.ui.primary.button {
+		background-color: #fa6462;
+		margin-top: 5px;
+		margin-bottom: 10px;
+}
+
+.ui.primary.button:hover {
+		background-color: #fa6462;
+}
+
+.ui.modal .actions {
+		text-align: center !important;
+}
+
+.others {
+		font-size: 11px;
+		text-align: center;
+		margin-top: 2px;
+}
+

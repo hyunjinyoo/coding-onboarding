@@ -9,262 +9,630 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>    
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            $('.ui.accordion').accordion('refresh');
+        </script>
     </head>
-    <body>
-        <div class="first">
-        <h1 class="title">센스있는 크리스마스 디저트 '크리스마스 케익볼'</h1>
-        <h4 class="subtitle">홀리케익의 베이킹 프로젝트</h4>
-     <div class="container">
-       <button class="ui secondary basic button">
-       Secondary
-       </button>
-        <button class="ui red button">
-            Red
-        </button>
-        <button class="ui button">
-            바보
-        </button>
-        <button class="ui button bb">
-            바보
-        </button>
-        <button class="ui button cc">
-            바보
-        </button>
-    </div>
-    <div class="ui card">
-      <div class="content">
-        <div class="right floated meta">14h</div>
-        <i class="user icon"></i> Elliot
-      </div>
-      <div class="image">
-        <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
-      </div>
-      <div class="content">
-        <span class="right floated">
-          <i class="heart outline like icon"></i>
-          17 likes
-        </span>
-        <i class="comment icon"></i>
-        3 comments
-      </div>
-      <div class="extra content">
-        <div class="ui large transparent left icon input">
-          <i class="heart outline icon"></i>
-          <input type="text" placeholder="Add Comment...">
+    <div class="ui secondary  menu">
+      <a class="active item">
+        Home
+      </a>
+      <a class="item">
+        Messages
+      </a>
+      <a class="item">
+        Friends
+      </a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
         </div>
-         </div>
-    </div>
-    <div class="ui card">
-      <div class="content">
-        <div class="right floated meta">14h</div>
-        <i class="user icon"></i> Elliot
-      </div>
-      <div class="image">
-        <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
-      </div>
-      <div class="content">
-        <span class="right floated">
-          <i class="heart outline like icon"></i>
-          17 likes
-        </span>
-        <i class="comment icon"></i>
-        3 comments
-      </div>
-      <div class="extra content">
-        <div class="ui large transparent left icon input">
-          <i class="heart outline icon"></i>
-          <input type="text" placeholder="Add Comment...">
-        </div>
-         </div>
-    </div>
-    <div class="ui card">
-      <div class="content">
-        <div class="right floated meta">14h</div>
-        <i class="user icon"></i> Elliot
-      </div>
-      <div class="image">
-        <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
-      </div>
-      <div class="content">
-        <span class="right floated">
-          <i class="heart outline like icon"></i>
-          17 likes
-        </span>
-        <i class="comment icon"></i>
-        3 comments
-      </div>
-      <div class="extra content">
-        <div class="ui large transparent left icon input">
-          <i class="heart outline icon"></i>
-          <input type="text" placeholder="Add Comment...">
-        </div>
-         </div>
-    </div>
-        <button class="ui basic large button">버튼버튼</button>
-        <p class="no">
-            Welcome to Brackets, a modern open-source code editor that understands web design. It's a lightweight,
-            yet powerful, code editor that blends visual tools into the editor so you get the right amount of help
-            when you want it.
-        </p>
-        
-        <!--
-            WHAT IS BRACKETS?
-        -->
-        <p id="do">
-            <em>Brackets is a different type of editor.</em>
-            Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other
-            editors. Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets
-            have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build
-            Brackets. To learn more about how to use the key features, read on.
-        </p>
-        
-        <!--
-            GET STARTED WITH YOUR OWN FILES
-        -->
-        
-        <h3>Projects in Brackets</h3>
-        <p>
-            In order to edit your own code using Brackets, you can just open the folder containing your files.
-            Brackets treats the currently open folder as a "project"; features like Code Hints, Live Preview and
-            Quick Edit only use files within the currently open folder.
-        </p>
-        
-        <samp>
-            Once you're ready to get out of this sample project and edit your own code, you can use the dropdown
-            in the left sidebar to switch folders. Right now, the dropdown says "Getting Started" - that's the
-            folder containing the file you're looking at right now. Click on the dropdown and choose "Open Folder…"
-            to open your own folder.
-            You can also use the dropdown later to switch back to folders you've opened previously, including this
-            sample project.
-        </samp>
-        
-        <!--
-            THE RELATIONSHIP BETWEEN HTML, CSS AND JAVASCRIPT
-        -->
-        <h3>Quick Edit for CSS and JavaScript</h3>
-        <p>
-            No more switching between documents and losing your context. When editing HTML, use the
-            <kbd>Cmd/Ctrl + E</kbd> shortcut to open a quick inline editor that displays all the related CSS.
-            Make a tweak to your CSS, hit <kbd>ESC</kbd> and you're back to editing HTML, or just leave the
-            CSS rules open and they'll become part of your HTML editor. If you hit <kbd>ESC</kbd> outside of
-            a quick inline editor, they'll all collapse. Quick Edit will also find rules defined in LESS and
-            SCSS files, including nested rules.
-        </p>
-        
-        <samp>
-            Want to see it in action? Place your cursor on the <!-- <samp> --> tag above and press
-            <kbd>Cmd/Ctrl + E</kbd>. You should see a CSS quick editor appear above, showing the CSS rule that
-            applies to it. Quick Edit works in class and id attributes as well. You can use it with your
-            LESS and SCSS files also.
-            
-            You can create new rules the same way. Click in one of the <!-- <p> --> tags above and press
-            <kbd>Cmd/Ctrl + E</kbd>. There are no rules for it right now, but you can click the New Rule
-            button to add a new rule for <!-- <p> -->.
-        </samp>
-        
-        <a href="screenshots/quick-edit.png">
-            <img alt="A screenshot showing CSS Quick Edit" src="https://tumblbug-assets.imgix.net/interviews/yourmind/y2.jpg?w=1800&s=16a605eeb4b021dd4bbc44271d8cf56d">
+        <a class="ui item">
+          Logout
         </a>
-        
-        <p>
-            You can use the same shortcut to edit other things as well - like functions in JavaScript,
-            colors, and animation timing functions - and we're adding more and more all the time.
-        </p>
-        <p>
-            For now inline editors cannot be nested, so you can only use Quick Edit while the cursor
-            is in a "full size" editor.
-        </p>
-        
-        <!--
-            LIVE PREVIEW
-        -->
-        <h3>Preview HTML and CSS changes live in the browser</h3>
-        <p>
-            You know that "save/reload dance" we've been doing for years? The one where you make changes in
-            your editor, hit save, switch to the browser and then refresh to finally see the result?
-            With Brackets, you don't have to do that dance.
-        </p>
-        <p>
-            Brackets will open a <em>live connection</em> to your local browser and push HTML and CSS updates as you
-            type! You might already be doing something like this today with browser-based tools, but with Brackets
-            there is no need to copy and paste the final code back into the editor. Your code runs in the
-            browser, but lives in your editor!
-        </p>
-        
-        <h3>Live Highlight HTML elements and CSS rules</h3>
-        <p>
-            Brackets makes it easy to see how your changes in HTML and CSS will affect the page. When your cursor
-            is on a CSS rule, Brackets will highlight all affected elements in the browser. Similarly, when editing
-            an HTML file, Brackets will highlight the corresponding HTML elements in the browser.
-        </p>
-        
-        <samp>
-            If you have Google Chrome installed, you can try this out yourself. Click on the lightning bolt
-            icon in the top right corner of your Brackets window or hit <kbd>Cmd/Ctrl + Alt + P</kbd>. When
-            Live Preview is enabled on an HTML document, all linked CSS documents can be edited in real-time.
-            The icon will change from gray to gold when Brackets establishes a connection to your browser.
-            
-            Now, place your cursor on the <!-- <img> --> tag above. Notice the blue highlight that appears
-            around the image in Chrome. Next, use <kbd>Cmd/Ctrl + E</kbd> to open up the defined CSS rules.
-            Try changing the size of the border from 10px to 20px or change the background
-            color from "transparent" to "hotpink". If you have Brackets and your browser running side-by-side, you
-            will see your changes instantly reflected in your browser. Cool, right?
-        </samp>
-        
-        <p class="note">
-            Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
-            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
-            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
-            to bring this functionality to all major browsers in the future.
-        </p>
-        
-        <h3>Quick View</h3>
-        <p>
-            For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Brackets makes
-            it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
-            color value or gradient and Brackets will display a preview of that color/gradient automatically. The
-            same goes for images: simply hover over the image link in the Brackets editor and it will display a
-            thumbnail preview of that image.
-        </p>
-        
-        <samp>
-            To try out Quick View for yourself, place your cursor on the <!-- <body> --> tag at the top of this
-            document and press <kbd>Cmd/Ctrl + E</kbd> to open a CSS quick editor. Now simply hover over any of the
-            color values within the CSS. You can also see it in action on gradients by opening a CSS quick editor
-            on the <!-- <html> --> tag and hovering over any of the background image values. To try out the image
-            preview, place your cursor over the screenshot image included earlier in this document.
-        </samp>
-        
-        <h3>Need something else? Try an extension!</h3>
-        <p>
-            In addition to all the goodness that's built into Brackets, our large and growing community of
-            extension developers has built hundreds of extensions that add useful functionality. If there's
-            something you need that Brackets doesn't offer, more than likely someone has built an extension for
-            it. To browse or search the list of available extensions, choose <strong>File > Extension
-            Manager…</strong> and click on the "Available" tab. When you find an extension you want, just click
-            the "Install" button next to it.
-        </p>
-        
-        <!--
-            LET US KNOW WHAT YOU THINK
-        -->
-        <h2>Get involved</h2>
-        <p>
-            Brackets is an open-source project. Web developers from around the world are contributing to build
-            a better code editor. Many more are building extensions that expand the capabilities of Brackets.
-            Let us know what you think, share your ideas or contribute directly to the project.
-        </p>
-        <ul>
-            <li><a href="http://brackets.io">Brackets.io</a></li>
-            <li><a href="http://blog.brackets.io">Brackets Team Blog</a></li>
-            <li><a href="https://github.com/adobe/brackets">Brackets on GitHub</a></li>
-            <li><a href="https://brackets-registry.aboutweb.com">Brackets Extension Registry</a></li>
-            <li><a href="https://github.com/adobe/brackets/wiki">Brackets Wiki</a></li>
-            <li><a href="https://groups.google.com/forum/#!forum/brackets-dev">Brackets Developer Mailing List</a></li>
-            <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
-            <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
-        </ul>
+      </div>
+    </div>
+    <div class="ui divider"></div>
+    <body>
+        <div class="coverimage" style="background-image: url('https://tumblbug-assets.imgix.net/interviews/yourmind/your1.jpg?w=2000&s=752ffcc86bf8cc838bdb0cae2674daaf')">
+            <h2 class="herocopy">내 방에 띄우는 열기구</h2>
         </div>
-    </body>
+            <h1 class="headertitle" id="yo">센스있는 크리스마스 디저트 '크리스마스 케익볼'</h1>
+            <h4 class="subtitle">홀리케익의 베이킹 프로젝트</h4>
+        <div class="container button">
+              <div class="ui button">One</div>
+              <div class="ui button">Two</div>
+              <div class="ui button">Three</div>
+              <div class="ui button">Four</div>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+    <div class="ui container padding">
+        <div class="ui column stackable center page grid">
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+          <div class="four wide column">
+         <div class="ui card customWidth">
+           <div class="content">
+           <div class="right floated meta">14h</div>
+           <i class="user icon"></i> Elliot
+           </div>
+           <div class="image">
+            <img src="https://tumblbug-pci.imgix.net/90debe1b0bbc315507a70c10cd15e64cc825a423/b9eded66e22230bc23373b3060cecca670a903e6/e3fc7ded9d878e57d176df92c58464d14ae6d042/95a37d9aa182add0fd34ac4406016536ede5ea72.jpg?ixlib=rb-1.1.0&w=620&h=465&auto=format%2Ccompress&lossless=true&fit=crop&s=d14dbc35ff90408ba1075ce1935c581f">
+            </div>
+           <div class="content">
+            <span class="right floated">
+              <i class="heart outline like icon"></i>
+              17 likes
+            </span>
+            <i class="comment icon"></i>
+            3 comments
+          </div>
+          <div class="extra content">
+            <div class="ui large transparent left icon input">
+              <i class="heart outline icon"></i>
+              <input type="text" placeholder="Add Comment...">
+            </div>
+             </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="bottom container">
+        <form class="ui form">
+          <div class="field">
+            <label>First Name</label>
+            <input type="text" name="first-name" placeholder="First Name">
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input type="text" name="last-name" placeholder="Last Name">
+          </div>
+          <div class="field">
+            <div class="ui checkbox">
+              <input type="checkbox" tabindex="0" class="hidden">
+              <label>I agree to the Terms and Conditions</label>
+            </div>
+          </div>
+          <button class="ui button" type="submit">Submit</button>
+        </form>    
+    </div> 
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <i class="bordered circular black user big icon"></i>
+        </a>
+        <div class="content">
+          <a class="author">Yieung</a>
+          <div class="metadata">
+            <div class="date">12시간 전</div>
+          </div>
+          <div class="text">
+            <p>안녕하세요. 매일매일그래픽일력 2017 프로젝트를 후원한 이응이라고 합니다.<br> 다름이 아니라, 배송을 받았는데 달력 뒷면이 떨어진 상태로 왔습니다.<br> 혹시 리워드 파손 발생 시 교환이나 환불이 가능한가요? 
+            </p>
+          </div>
+          <div class="deliver status">
+            <p class="deliver"> 2016.12.12.11:23AM 읽음</p>
+          </div>
+        </div>
+      </div>
+    <div class="ui divider"></div>
+      <div class="comment">
+        <a class="avatar">
+          <i class="bordered circular black user big icon"></i>
+        </a>
+        <div class="content">
+          <a class="author">Yieung</a>
+          <div class="metadata">
+            <div class="date">12시간 전</div>
+          </div>
+          <div class="text">
+            <p>안녕하세요. 매일매일그래픽일력 2017 프로젝트를 후원한 이응이라고 합니다.<br> 다름이 아니라, 배송을 받았는데 달력 뒷면이 떨어진 상태로 왔습니다.<br> 혹시 리워드 파손 발생 시 교환이나 환불이 가능한가요? 
+            </p>
+          </div>
+          <div class="deliver status">
+            <p class="deliver"> 2016.12.12.11:23AM 읽음</p>
+          </div>
+        </div>
+      </div>
 
+      <form class="ui reply form">
+        <div class="field">
+          <textarea></textarea>
+        </div>
+        <div class="ui primary submit labeled icon button">
+          <i class="icon edit"></i> Add Comment
+        </div>
+      </form>
+    </div>
+<div class="tab section">
+    <div class="ui top attached tabular menu">
+      <a class="active item" data-tab="first">내가 만든 프로젝트</a>
+      <a class="item" data-tab="second">내가 후원/문의한 프로젝트</a>
+    </div>
+    <div class="ui bottom attached active tab segment" data-tab="first">
+      이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다.<br>이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다. <br> 이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다.이곳에 내용이 들어갈 예정입니다.
+    </div>
+    <div class="ui bottom attached tab segment" data-tab="second">
+      Second
+    </div>
+</div>
+<div class="four tabs">
+    <div class="tab blank">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#yo" class="active item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large light grey circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="tab filled">
+        <div class="ui tabular menu">
+          <div class="ui container">
+            <a href="#" class="active item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 만든</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+            <a href="#funding" class="item">
+              <h5>
+                <i class="ui large blue check circle icon"></i>
+                <label><span>내가 후원/문의한</span> <span>프로젝트</span></label>
+              </h5>
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui divider"></div>
+ 
+<div class="ui vertical accordion menu">
+  <div class="item">
+    <a class="active title">
+      <i class="dropdown icon"></i>
+   <i class="black circular large user icon"></i>
+      Partner information
+    </a>
+    <div class="active content">
+      <div class="ui form">
+        <div class="grouped fields">
+          <div class="field">
+            <i class="caret right icon"></i>    
+             후원 정보: 금속 뱃지 + 에코백 + 미니 탁상 달력 + 엽서 세트를 후원하셨습니다 (2035634)
+          </div>
+          <div class="field">
+            <i class="caret right icon"></i>    
+             결제 정보: 신용/체크 카드로 10,000원이 결제완료되었습니다.
+          </div>
+          <div class="field">
+            <i class="caret right icon"></i>    
+             배송 정보: [35264] 서울시 마포구 동교동 203-7 유남빌딩 503호, 유현진
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical accordion menu">
+  <div class="item">
+    <a class="active title">
+      <i class="dropdown icon"></i>
+   <i class="black circular large user icon"></i>
+      Yieung
+    </a>
+    <div class="active content">
+        <table class="ui definition table">
+          <tbody>
+            <tr>
+              <td>후원 정보</td>
+              <td>[후원번호:203532] 엽서 세트 + 탁상용 미니 달력 + 금속 뱃지 + 에코백 </td>
+            </tr>
+            <tr>
+              <td>결제 정보</td>
+              <td>10,000원 결제 완료되었습니다</td>
+            </tr>
+            <tr>
+              <td>배송 정보</td>
+              <td>[우편번호:3523] 서울시 마포구 동교동 203-7 유남빌딩 503호 유현진</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+
+<div class="ui segment">
+<h2> 텀블벅에게 문의하기</h2>
+<div class="ui styled accordion">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent">
+        <strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <div class="ui divider"></div>
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <div class="ui divider"></div>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+</div>
+
+<div class="ui link cards">
+  <div class="card">
+    <div class="titlesection">
+      <h4 class="totumblbug"> 텀블벅에게 문의하기 </h>
+    </div>
+    <div class="content">
+<div class="ui styled accordion">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent">
+        <strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <div class="ui divider"></div>
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <div class="ui divider"></div>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+  
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+<div class="active title">
+    <i class="dropdown icon"></i>
+     결제 수단
+  </div>
+  <div class="active content">
+        <p class="dropdowncontent"><strong>결제 수단 변경 방법</strong><br>
+        크롬에서 텀블벅 로그인 후, 화면 우측 상단 프로필 - 지불정보 설정 메뉴 직접 변경하실 수 있습니다.<br> 
+        <strong>결제 실패의 경우 (재인출 시도 기간 14일 내)</strong><br>
+        결제 정보를 유효한 정보로 수정하시는 경우, 수정 즉시 정상 결제가 진행될 것입니다.<br>
+        다만, 재인출 시도 기간을 지났다면 텀블벅에서 결제가 더이상 이루어질 수 없으므로 창작자에게 문의 주시길 바랍니다. <br>
+        <strong>무통장/핸드폰결제/해외결제/법인카드의 결제</strong><br>
+        무통장/ 핸드폰 결제/ 법인카드의 경우 지원되지 않습니다. (도움말 참조)<br>
+        해외결제의 경우 창작자에게 직접 문의 부탁드립니다. <br>
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">
+        Joined in 2013
+      </span>
+      <span>
+        <i class="user icon"></i>
+        75 Friends
+      </span>
+    </div>
+  </div>
+
+
+<div class="modalcontainer">
+<div class="ui fullscreen modal" style="margin-top: -200px; margin-left:400px; display: block !important;">
+    <i class="close white icon"></i>
+    <div class="modal header">
+      <h3>창작자에게 문의하기</h3>
+    </div>
+    <div class="content">
+      <div class="ui form">
+        <div class="field">
+          <span class="towhom">받는 사람 : 오디너리피플</span>
+<div class="ui fitted divider"></div>
+          <span class="towhom">문의 내용 : 
+            <div class="ui compact menu">
+              <div class="ui simple dropdown item">
+                문의 유형
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">선물/후원</div>
+                  <div class="item">프로젝트</div>
+                  <div class="item">수령자 정보</div>
+                  <div class="item">교환/환불</div>
+                  <div class="item">배송</div>
+                  <div class="item">기타</div>
+                </div>
+              </div>
+            </div>
+            </span>
+<div class="ui fitted divider"></div>          
+				<div class="ui input field">
+					<textarea placeholder="하고 싶은 말을 써주세요" rows="20" style="height:20em;"></textarea>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="actions">
+		 <button class="ui small button"><i class="remove icon"></i>취소하기</button>    
+		<button class="ui small primary button" type="submit"><i class="send icon"></i>보내기</button>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
