@@ -204,9 +204,8 @@ p {
 		background-color: #fa6462;
 }
 
-.ui.modal.actions {
+.ui.modal .actions {
 		text-align: center !important;
-
 }
 
 .others {
